@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "5.0"
 
   s.source       = { :git => "https://github.com/chichi1314/ComponentBasic.git", :tag => s.version.to_s }
-  s.source_files  = "ComponentBasic/JPGuide1.0.0/*.{m,h}"
+  s.source_files  = "ComponentBasic/**/*.{m,h}"
 
   s.requires_arc = true
 
